@@ -17,7 +17,8 @@ let package = Package(
                 "CCairo",
                 "CFontConfig",
                 "CFreeType"
-            ]
+            ],
+            linkerSettings: [.unsafeFlags(["-L/usr/local/lib"])]
         ),
         .testTarget(
             name: "CairoTests",

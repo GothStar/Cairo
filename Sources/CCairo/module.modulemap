@@ -1,5 +1,5 @@
-module CCairo [system] {
-    header "shim.h"
+module CCairo[system] {
+    umbrella header "./shim.h"
     link "cairo"
     export *
 }
