@@ -3,6 +3,7 @@
 #include "/usr/local/include/cairo/cairo-pdf.h"
 #include "/usr/local/include/cairo/cairo-svg.h"
 #include "/usr/local/include/cairo/cairo-ft.h"
+#include "/usr/local/include/cairo/cairo-quartz.h"
 #else
 #include <cairo.h>
 #include <cairo-pdf.h>
