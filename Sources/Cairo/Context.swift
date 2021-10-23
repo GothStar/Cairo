@@ -382,7 +382,6 @@ public final class Context {
         
         set { cairo_set_line_width(internalPointer, newValue) }
     }
-    
     public var lineJoin: cairo_line_join_t {
         
         get { return cairo_get_line_join(internalPointer) }
